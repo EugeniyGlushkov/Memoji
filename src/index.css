@@ -68,4 +68,6 @@ body {
     font-weight: bold;
     font-size: 42px;
     padding: 40px 0 30px 0;
+    color: #434344;
+    user-select: none;
 }
