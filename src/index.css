@@ -72,3 +72,11 @@ body {
     color: #434344;
     user-select: none;
 }
+
+.red_back {
+    background-color: #F2443D;
+}
+
+.green_back {
+    background-color: #5FD572;
+}
