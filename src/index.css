@@ -121,6 +121,7 @@ body {
     font-family: Arial, sans-serif;
     font-weight: bold;
     margin: 30px auto 0;
+    display: flex;
 }
 
 .popup__button {
@@ -135,4 +136,30 @@ body {
     font-family: Arial, sans-serif;
     font-weight: bold;
     outline:none;
+}
+
+.anim_1 {
+    animation: 1s linear 0s infinite both running letter-animation;
+}
+
+.anim_2 {
+    animation: 1s linear 0.1s infinite both running letter-animation;
+}
+
+.anim_3 {
+    animation: 1s linear 0.2s infinite both running letter-animation;
+}
+
+.anim_4 {
+    animation: 1s linear 0.3s infinite both running letter-animation;
+}
+
+@keyframes letter-animation {
+    0%, 100% {
+        transform: scaleY(1);
+    }
+
+    50% {
+        transform: scaleY(1.5) translateY(-12px);
+    }
 }

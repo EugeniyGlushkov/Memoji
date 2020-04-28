@@ -266,7 +266,8 @@ class Game {
 
     winHandler() {
         document.querySelector('.popup').style.display = '';
-        document.querySelector('#popup__title').innerHTML = 'Win';
+        document.querySelector('#popup__title').innerHTML = '<span class="anim_1">W</span>' +
+            '<span class="anim_2">i</span><span class="anim_3">n</span>';
         document.querySelector('#newGame').innerHTML = 'Play again';
         this.timer.reset();
         this.isStarted = false;
@@ -275,7 +276,8 @@ class Game {
 
     loseHandler() {
         document.querySelector('.popup').style.display = '';
-        document.querySelector('#popup__title').innerHTML = 'Lose';
+        document.querySelector('#popup__title').innerHTML = '<span class="anim_1">L</span>' +
+            '<span class="anim_2">o</span><span class="anim_3">s</span><span class="anim_4">e</span>';
         document.querySelector('#newGame').innerHTML = 'Try again';
         this.timer.reset();
         this.isStarted = false;
